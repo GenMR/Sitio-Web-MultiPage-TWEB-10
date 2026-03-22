@@ -1,0 +1,374 @@
+body {
+    background: #111;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Playfair Display', serif;
+}
+
+.text-audio {
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+}
+
+p {
+    font-size: 1.125rem;
+    line-height: 1.8rem;
+}
+
+
+.titulo {
+    font-size: 2.375rem;
+}
+
+.titulo::after {
+    content: "";
+    display: block;
+    width: 3.75rem;
+    height: 0.18rem;
+    background: #f77f00;
+    margin-top: 0.7rem;
+}
+
+.lado-izquierdo {
+    background: #2f3e46;
+    min-height: 100vh;
+}
+
+.repertorio ul {
+    list-style: none;
+    padding: 0;
+}
+
+.repertorio li {
+    border-bottom: 0.06rem solid rgba(255, 255, 255, 0.2);
+}
+
+.banner {
+    background-image: url("../imagenes/teatro.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.banner h1 {
+    font-size: 3.75rem;
+    max-width: 31rem;
+}
+
+
+.btn-warning {
+    background: #f77f00;
+    border: none;
+}
+
+.lado-izquierdo.padding-left-extra {
+    padding: 4rem !important;
+}
+
+.banner .banner-content {
+    padding-left: 5rem !important;
+}
+
+.cartelera {
+    background: #f5f5f5;
+    color: #000;
+}
+
+.card {
+    border: none;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+
+
+.video-section {
+    position: relative;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.video-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video-overlay {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    pointer-events: none;
+}
+
+.video-overlay p {
+    max-width: 40rem;
+}
+
+.animacion {
+    width: 12.5rem;
+    height: 12.5rem;
+}
+
+.animacion lottie-player {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.marco-negro {
+    background: #000;
+    padding: 2rem;
+}
+
+.split-row {
+    min-height: 32rem;
+}
+
+.split-left {
+    background-image: url("../imagenes/susc.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+
+}
+
+.split-right {
+    background: #151b1f;
+    color: #fff;
+    height: 100%;
+
+}
+
+.contenido-split {
+    width: 100%;
+    max-width: 28rem;
+    margin: auto;
+    text-align: center;
+}
+
+.form-anubis input {
+    padding: 0.6rem;
+    border: none;
+    width: 100%;
+}
+
+.form-anubis {
+    max-width: 25rem;
+}
+
+audio {
+    max-width: 100%;
+}
+
+
+.mu {
+    color: #dfdddd;
+}
+
+footer {
+    background: #000;
+    border-top: 0.06rem solid rgba(255, 255, 255, 0.1);
+}
+
+footer p {
+    color: #ccc;
+}
+
+.redes a {
+    color: white;
+    text-decoration: none;
+}
+
+.redes i {
+    font-size: 1.5rem;
+    transition: 0.3s;
+}
+
+.redes i:hover {
+    color: #f77f00;
+}
+
+.cont-botonwa {
+    background-color: #f77f00;
+    position: fixed;
+    bottom: 1.8rem;
+    right: 1.95rem;
+    border-radius: 50%;
+    padding: 0.5rem;
+    z-index: 1100;
+    animation: efecto 1.2s infinite;
+    transition: transform 0.3s ease;
+}
+
+.botonwa {
+    width: 2rem;
+    display: block;
+}
+
+.cont-botonwa:hover {
+    transform: scale(1.15);
+}
+
+
+@keyframes efecto {
+    0% {
+        box-shadow: 0 0 0 0 rgba(247, 127, 0, 0.7);
+    }
+
+    70% {
+        box-shadow: 0 0 0 0.9rem rgba(247, 127, 0, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(247, 127, 0, 0);
+    }
+}
+
+.scrolltop {
+    cursor: pointer;
+    position: fixed;
+    bottom: 6rem;
+    right: 2rem;
+    background: #f77f00;
+    width: 2.8rem;
+    height: 2.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.4rem;
+    z-index: 1000;
+    color: white;
+}
+
+section {
+    animation: fadeIn 0.8s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 991px) {
+
+
+
+    .lado-izquierdo.padding-left-extra {
+        padding: 3rem !important;
+    }
+
+    .banner {
+        min-height: 60vh;
+        justify-content: flex-start;
+        text-align: left;
+    }
+
+    .banner .banner-content {
+        padding-left: 2rem !important;
+        padding-right: 1rem !important;
+    }
+
+    .banner h1 {
+        font-size: 1.8rem;
+        max-width: 15rem;
+        text-align: left;
+        margin-bottom: 1.5rem;
+
+    }
+
+    .banner p {
+        font-size: 1.2rem;
+        max-width: 10rem;
+        text-align: left;
+    }
+
+    .banner .d-flex {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .banner .btn {
+        width: auto;
+        min-width: 10rem;
+    }
+
+    .video-section {
+        height: 60vh;
+    }
+
+    .video-overlay p {
+        padding: 0 1rem;
+    }
+
+    .split-row {
+        min-height: auto;
+    }
+
+    .split-left,
+    .split-right {
+        padding: 2.5rem 1.5rem;
+    }
+
+    .split-left {
+        background-attachment: scroll;
+    }
+
+    lottie-player {
+        width: 75% !important;
+    }
+
+    footer {
+        text-align: center;
+        margin-bottom: 0.3rem;
+    }
+
+    footer .row {
+        gap: 2rem;
+    }
+
+    footer .btn {
+        width: auto;
+
+    }
+
+    .cont-botonwa {
+        bottom: 2rem;
+        right: 1.2rem;
+        padding: 0.5rem;
+    }
+
+    .botonwa {
+        width: 2rem;
+    }
+
+    .scrolltop {
+        bottom: 6rem;
+        right: 1.3rem;
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}
