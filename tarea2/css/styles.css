@@ -1,0 +1,256 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f9fa;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+p {
+    font-size: 1.30rem;
+    line-height: 1.7;
+    color: #333;
+}
+
+.btn {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.6rem 1.5rem;
+    border-radius: 6px;
+}
+
+
+main {
+    flex: 1;
+}
+
+
+header {
+    background-color: #315d2f;
+    color: #ffffff;
+    padding: 1rem 0;
+}
+
+footer {
+    background-color: #315d2f;
+    padding: 1rem 0;
+}
+
+footer p {
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.titulo-principal {
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.titulo-seccion {
+    font-weight: 600;
+    margin-top: 1.5rem;
+}
+
+.parrafo{
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.btn-principal {
+    background-color: #343a40;
+    color: #ffffff;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.btn-principal:hover {
+    background-color: #000;
+    color: #ffffff;
+}
+
+
+.uil {
+    font-size: 3.5rem;
+    color: #315d2f;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+
+/* RETO #2 */
+
+/* RETO #3 */
+
+.separador {
+    width: 300px;
+    height: 3px;
+    background-color: #d4af37;
+    margin: 50px auto;
+}
+
+/* RETO #4 */
+
+/* RETO #5 */
+
+.columna-color {
+    padding: 4rem 3rem;
+    min-height: 300px;
+    color: #ffffff;
+}
+
+.columna-color h3 {
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.columna-color p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+.color-uno {
+    background-color: #3d9bb8;
+}
+
+.color-dos {
+    background-color: #71a100;
+}
+
+.color-tres {
+    background-color: #a32e90;
+}
+
+/* RETO #6 */
+
+.banner-full {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../imagenes/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(103, 150, 151, 0.75);
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+}
+
+
+.pbanner{
+    color: #ffffff;
+}
+
+/* RETO #7 */
+
+
+.imghvr-fade figcaption {
+    background-color: rgba(49, 93, 47, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* RETO #8 */
+
+.banner-entrada {
+    width: 100%;
+    height: 80vh;
+    background-image: url("../imagenes/banner2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    color: #ffffff;
+}
+
+
+.titulo-hero,
+.subtitulo-hero {
+    font-family: 'Cinzel', serif;
+    font-size: clamp(2.5rem, 6vw, 5rem);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.contenido-entrada {
+    max-width: 700px;
+}
+
+.banner-entrada p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #ffffff;
+}
+
+.btn-cuadrado {
+    border-radius: 0;
+    padding: 0.2rem 1.8rem;
+    font-weight: 500;
+}
+
+.btn i {
+    font-size: 1.3rem;
+    color: inherit;
+    margin-bottom: 0;
+}
+
+
+
+/* RETO #9 */
+
+.logo-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.logo-card img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    transition: all 0.3s ease;
+}
+
+.logo-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.logo-card:hover img {
+    transform: scale(1.05);
+}
+
+/* RETO #10 */
+
+.blog-destacado {
+    background-color: #f2f2f2;
+}
+
+.titulo-destacado {
+    font-weight: 700;
+}
+
+.blog-secundario h4 {
+    font-weight: 600;
+}
+
+.imagen-blog {
+    width: 100%;
+    border-radius: 6px;
+}
