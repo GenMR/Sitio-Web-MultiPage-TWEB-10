@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hestiaque Design</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="imagenes/favicon1.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="scss/style.css">
+    <link rel="stylesheet" href="css/reglas.css">
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+        <div class="container-fluid px-5">
+            <div class="nav-logo mt-3" id="mainLogo">
+                <a href="index.html">
+                    Hestiaque<br>
+                    <span>Design</span>
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu">
+                <i class="fas fa-bars text-white"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="mainMenu">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">INICIO</a></li>
+                    <li class="nav-item"><a class="nav-link" href="nosotros.html">NOSOTROS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="servicios.html">SERVICIOS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="proyectos.html">PROYECTOS</a></li>
+                </ul>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="alianzas.html">ALIANZAS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tendencias.html">TENDENCIAS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">CONTACTO</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <section class="hero">
+        <video autoplay muted loop playsinline class="hero-video">
+            <source src="video/vid1.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <section class="bienvenida">
+        <div class="container text-center">
+
+            <h2 class="frase-bienvenida">
+                CREAMOS ESPACIOS QUE NO SOLO SE VEN, SE VIVEN.
+                DONDE EL DISEÑO ENCUENTRA SU PROPÓSITO.
+            </h2>
+
+        </div>
+    </section>
+
+    <section class="imagen-full">
+        <img src="imagenes/img1.jpg" alt="Diseño de interiores">
+    </section>
+
+    <section class="marcas-carousel py-5">
+        <div class="container text-center py-3">
+
+            <h2 class="titulo-marcas py-5">PORTAFOLIO DE MARCAS</h2>
+
+            <div id="carouselMarcas" class="carousel slide py-5" data-bs-ride="carousel">
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active pb-3">
+                        <div class="d-flex justify-content-center align-items-center flex-wrap">
+
+                            <img src="imagenes/m1.png" class="logo-marca">
+                            <img src="imagenes/m2.png" class="logo-marca">
+                            <img src="imagenes/m5.png" class="logo-marca">
+                            <img src="imagenes/m4.png" class="logo-marca">
+
+                        </div>
+                    </div>
+
+                    <div class="carousel-item pb-3">
+                        <div class="d-flex justify-content-center align-items-center flex-wrap">
+
+                            <img src="imagenes/m3.png" class="logo-marca">
+                            <img src="imagenes/m2.png" class="logo-marca">
+                            <img src="imagenes/m5.png" class="logo-marca">
+                            <img src="imagenes/m4.png" class="logo-marca">
+
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev pb-3" type="button" data-bs-target="#carouselMarcas"
+                    data-bs-slide="prev">
+                    <span class="arrow">&#8592;</span>
+                </button>
+
+                <button class="carousel-control-next pb-3" type="button" data-bs-target="#carouselMarcas"
+                    data-bs-slide="next">
+                    <span class="arrow">&#8594;</span>
+                </button>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="seccion-final">
+        <div class="row g-0">
+            <a href="tendencias.html"
+                class="col-md-6 bloque bloque-izq d-flex align-items-start justify-content-center text-center pt-5">
+                <div class="contenido p-4">
+                    <h3>BLOG</h3>
+                    <p class="texto-bloque">Explora tendencias, ideas y conceptos de diseño</p>
+                </div>
+            </a>
+            <a href="servicios.html"
+                class="col-md-6 bloque bloque-der d-flex align-items-start justify-content-center text-center pt-5">
+                <div class="contenido p-4">
+                    <h3>SERVICIOS</h3>
+                    <p class="texto-bloque">Descubre cómo transformamos espacios</p>
+                </div>
+            </a>
+
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container mt-4">
+
+            <div class="row">
+                <div class="col-md-4 footer-logo">
+                    <h2>
+                        HESTIAQUE<br>
+                        <span>DESIGN</span>
+                    </h2>
+                </div>
+                <div class="col-md-4 footer-links">
+                    <ul>
+                        <li><a href="#">Contacto</a></li>
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="#">Política de privacidad</a></li>
+                        <li><a href="#">Términos</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 footer-news">
+                    <p>SUSCRÍBETE</p>
+                    <input type="email" placeholder="Email address">
+                    <button>SIGN UP</button>
+                </div>
+
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-12 text-center">
+                    <p class="footer-copyright">© 2026 Hestiaque Design. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="cont-botonwa mb-2">
+        <a href="https://wa.me/50661485095" target="_blank">
+            <img class="botonwa" src="imagenes/whatsapp.png" alt="WhatsApp">
+        </a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        window.addEventListener('scroll', function () {
+            const navbar = document.getElementById('navbar');
+            const mainLogo = document.getElementById('mainLogo');
+            const scrollY = window.scrollY;
+
+            if (scrollY > 50) {
+                navbar.classList.add('scrolled');
+                mainLogo.classList.add('small');
+            } else {
+                navbar.classList.remove('scrolled');
+                mainLogo.classList.remove('small');
+            }
+        });
+    </script>
+
+</body>
+
+</html>

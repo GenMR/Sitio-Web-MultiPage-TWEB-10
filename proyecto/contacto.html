@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Hestiaque Design</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="imagenes/favicon1.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="scss/style.css">
+    <link rel="stylesheet" href="css/reglas.css">
+
+
+</head>
+
+<body class="page-static">
+
+    <nav class="navbar navbar-expand-lg fixed-top navbar-static" id="navbar">
+        <div class="container-fluid px-5">
+
+            <div class="nav-logo static-logo" id="mainLogo">
+                <a href="index.html">
+                    Hestiaque<br>
+                    <span>Design</span>
+                </a>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu">
+                <i class="fas fa-bars text-white"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainMenu">
+
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">INICIO</a></li>
+                    <li class="nav-item"><a class="nav-link" href="nosotros.html">NOSOTROS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="servicios.html">SERVICIOS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="proyectos.html">PROYECTOS</a></li>
+                </ul>
+
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="alianzas.html">ALIANZAS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tendencias.html">TENDENCIAS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">CONTACTO</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+
+    <section class="contacto-icons py-4 text-center">
+
+        <div class="container">
+
+            <h2 class="mb-3 mx-auto py-5">
+                En Hestiaque creemos que cada espacio es un reflejo de quien lo habita.
+            </h2>
+
+            <div class="d-flex justify-content-center gap-5 flex-wrap mt-3">
+
+                <div class="icono-item">
+                    <i class="fa-solid fa-phone pb-3" data-bs-toggle="tooltip" title="Llámanos directamente"></i>
+                    <p>Atención personalizada</p>
+                </div>
+
+                <div class="icono-item">
+                    <i class="fa-solid fa-envelope pb-3" data-bs-toggle="tooltip" title="Escríbenos por correo"></i>
+                    <p>Soporte por email</p>
+                </div>
+
+                <div class="icono-item">
+                    <i class="fa-solid fa-location-dot pb-3" data-bs-toggle="tooltip" title="Ubicación del estudio"></i>
+                    <p>Visítanos</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="contacto-form py-5">
+
+        <div class="container py-5">
+
+            <div class="row align-items-center">
+
+                <div class="col-md-6 contacto-info bg-beige p-5">
+
+                    <h5>CONSULTAS GENERALES</h5>
+                    <p><strong>Email:</strong><br>info@hestiaque.com</p>
+
+                    <h5 class="mt-3">VENTAS Y PROYECTOS</h5>
+                    <p><strong>Email:</strong><br>ventas@hestiaque.com</p>
+
+                    <h5 class="mt-3">HORARIO</h5>
+                    <p><strong>Atención:</strong><br>Lunes – Viernes 9am – 6pm</p>
+
+                    <h5 class="mt-3">TELÉFONO</h5>
+                    <p><strong>61485095</strong></p>
+
+                    <video autoplay muted loop class="mt-5">
+                        <source src="video/vid2.mp4" type="video/mp4">
+                    </video>
+
+                </div>
+
+                <div class="col-md-6 ps-md-5">
+
+                    <h5>INICIAR CONSULTA</h5>
+                    <p class="my-4">Déjanos tus datos y nos pondremos en contacto contigo.</p>
+
+                    <form>
+
+                        <div class="mb-3">
+                            <label>Nombre *</label>
+                            <input type="text" class="form-control">
+                        </div>
+
+                        <div class="mb-3">
+                            <label>Apellido *</label>
+                            <input type="text" class="form-control">
+                        </div>
+
+                        <div class="mb-3">
+                            <label>Correo electrónico *</label>
+                            <input type="email" class="form-control">
+                        </div>
+
+                        <div class="mb-3">
+                            <label>Empresa</label>
+                            <input type="text" class="form-control">
+                        </div>
+
+                        <div class="mb-3">
+                            <label>Tipo de consulta *</label>
+                            <select class="form-select mt-3">
+                                <option>Selecciona una opción</option>
+                                <option>Residencial</option>
+                                <option>Comercial</option>
+                                <option>Diseño digital</option>
+                            </select>
+                        </div>
+
+                        <button class="btn btn-dark w-100 mt-4">Enviar</button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <iframe src="https://www.google.com/maps?q=Cartago,Costa+Rica&output=embed" width="100%" height="400"
+        style="border:0;" loading="lazy">
+    </iframe>
+
+
+    <footer class="footer">
+        <div class="container mt-4">
+
+            <div class="row">
+
+                <div class="col-md-4 footer-logo">
+                    <h2>
+                        HESTIAQUE<br>
+                        <span>DESIGN</span>
+                    </h2>
+                </div>
+
+                <div class="col-md-4 footer-links">
+                    <ul>
+                        <li><a href="#">Contacto</a></li>
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="#">Política de privacidad</a></li>
+                        <li><a href="#">Términos</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 footer-news">
+                    <p>SUSCRÍBETE</p>
+                    <input type="email" placeholder="Email address">
+                    <button>SIGN UP</button>
+                </div>
+
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-12 text-center">
+                    <p class="footer-copyright">© 2026 Hestiaque Design. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="cont-botonwa mb-2">
+        <a href="https://wa.me/50661485095" target="_blank">
+            <img class="botonwa" src="imagenes/whatsapp.png" alt="WhatsApp">
+        </a>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+    </script>
+
+</body>
+
+</html>
